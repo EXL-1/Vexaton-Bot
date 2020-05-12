@@ -1,0 +1,29 @@
+{
+  "name": "project-assembly-master",
+  "version": "1.0.0",
+  "description": "\"# EXLPRO\" \"# Project-Assembly\"  \"# Project-Assembly\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "array-sort": "^1.0.0",
+    "chalk": "^4.0.0",
+    "common-tags": "^1.8.0",
+    "discord-anti-spam": "^2.4.1",
+    "discord.js": "^12.2.0",
+    "fs": "0.0.1-security",
+    "git": "^0.1.5",
+    "mathjs": "^7.0.0",
+    "moment": "^2.25.3",
+    "noblox.js": "^4.5.6",
+    "node-superfetch": "^0.1.10",
+    "pkg.json": "^2.0.7",
+    "randomcolor": "^0.5.4",
+    "solenolyrics": "^5.0.0",
+    "table": "^5.4.6",
+    "weather-js": "^2.0.0"
+  }
+}
