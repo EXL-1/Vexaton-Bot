@@ -303,16 +303,7 @@ bot.on('message', message => {
   }
 });
     
-bot.on('ready', () => {//new ready event
-    setInterval(function(){
-        bot.guilds.forEach(g => {
-                    var role = g.roles.find(x => x.name === "Rainbow");//rainbow role name
-                    if (role) {
-                        role.edit({color : "RANDOM"});
-                    };
-        });
-    }, 30000);//the rainbow time
-  });
+
     function login() {
         return roblox.cookieLogin(cookie);
     }
